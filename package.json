@@ -1,0 +1,23 @@
+{
+  "name": "ration-tg-sergey-01",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node test.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  },
+  "cloudflare": {
+    "bindings": {
+      "TELEGRAM_BOT_TOKEN": {
+        "description": "Секретный токен УЖЕ созданного вами бота @ration_sergey_bot из BotFather. Вводите только здесь, никогда в ChatGPT/GitHub."
+      },
+      "OWNER_PASSWORD": {
+        "description": "Придумайте свой длинный пароль (12+ символов), потребуется единожды при привязке ChatGPT к боту. Держите в секрете."
+      }
+    }
+  }
+}

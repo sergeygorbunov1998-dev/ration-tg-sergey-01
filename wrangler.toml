@@ -1,0 +1,14 @@
+name = "ration-tg-sergey-01"
+main = "index.mjs"
+compatibility_date = "2026-11-23"
+workers_dev = true
+
+[vars]
+TELEGRAM_CHAT_ID = "@ration_sergey_post"
+GOAL_CAL = "2350"
+GOAL_P = "175"
+
+# Deploy to Cloudflare provisions this KV namespace automatically.
+[[kv_namespaces]]
+binding = "STATE"
+id = "2b5c9180d4c648fea119d4f823f3c2a5"

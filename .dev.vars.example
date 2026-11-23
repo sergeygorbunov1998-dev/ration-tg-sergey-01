@@ -1,0 +1,4 @@
+# Only enter real values into Cloudflare secret settings.
+# NEVER commit secrets into GitHub, README, or chat.
+TELEGRAM_BOT_TOKEN=ADD_YOUR_EXISTING_BOTFATHER_TOKEN_IN_CLOUDFLARE
+OWNER_PASSWORD=CHOOSE_A_LONG_UNIQUE_PASSPHRASE_AT_LEAST_12_CHARS
